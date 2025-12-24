@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Lokal Salatiga",
+    "description": "Pahit dengan sensasi asam — cocok untuk penikmat kopi unik",
+    "price": "",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Robusta Temanggung",
+    "description": "Pahit & aroma gula jawa — nikmat tanpa gula",
+    "price": "",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "Robusta Lampung",
+    "description": "Pahit nendang & body kental",
+    "price": "",
+    "image": ""
+  }
+]
