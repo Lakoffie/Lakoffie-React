@@ -1,3 +1,7 @@
+#root {
+position: absolute;
+top: -9999px;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
