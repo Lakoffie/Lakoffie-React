@@ -1,19 +1,10 @@
-import Header from "./components/Header.jsx"
-import Hero from "./components/Hero.jsx"
-import ProductList from "./components/ProductList.jsx"
-import WhatsAppCTA from "./components/WhatsAppCTA.jsx"
-import Footer from "./components/Footer.jsx"
+function App() {
+  return (
+    <div style={{ padding: "40px", background: "#f5f5f5" }}>
+      <h1>Lakoffie React Hidup 🚀</h1>
+      <p>Kalau ini muncul, React OK.</p>
+    </div>
+  )
+}
 
-const App = () => (
-  <div>
-    <Header />
-    <Hero />
-    <ProductList />
-    <WhatsAppCTA />
-    <Footer />
-  </div>
-)
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<App />)
 export default App
