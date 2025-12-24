@@ -1,1 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
 
+header {
+  background: #3d2b1f;
+  color: #fff;
+  padding: 1rem;
+}
+
+.main-hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.footer {
+  background: #3d2b1f;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+}
