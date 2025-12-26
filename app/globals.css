@@ -28,9 +28,9 @@
 }
 .navbar-link-active {
   @apply font-semibold border-b-2
+         border-amber-600
          text-gray-800
-         md:text-white
-         border-primary;
+         md:text-white;
 }
 .navbar-hamburger {
   @apply md:hidden flex flex-col gap-1;
