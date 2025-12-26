@@ -6,10 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        brand: "#3B2F2F",
-        accent: "#C08552"
-      }
+  colors: {
+    primary: "#92400e",     // kopi utama
+    secondary: "#78350f",   // kopi gelap
+    accent: "#d97706",      // caramel / gula jawa
+    cream: "#fef3c7",       // background lembut
+  },
+    }
     }
   },
   plugins: []
