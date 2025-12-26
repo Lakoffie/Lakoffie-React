@@ -7,7 +7,7 @@
 
 /* HEADER (COOKLAT MUDA) */
 .mitra-header {
-  @apply bg-gray-800
+  @apply bg-gray-400
          pt-4 md:pt-4
          pb-8
          text-center
