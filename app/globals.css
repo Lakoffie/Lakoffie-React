@@ -21,10 +21,6 @@
 .navbar-menu {
   @apply hidden md:flex gap-6;
 }
-
-.nav-active {
-  @apply text-accent border-b-2 border-accent;
-}
 .nav-link-active {
   @apply text-accent border-b-2 border-accent;
 }
