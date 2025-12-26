@@ -1,3 +1,5 @@
+import Navbar from "./components/Navbar";
+
 import "./globals.css";
 import "./styles/design-system.css";
 import "./styles/mitra.css";
