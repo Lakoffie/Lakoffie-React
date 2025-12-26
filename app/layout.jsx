@@ -1,6 +1,6 @@
 import "./globals.css";
 import "./styles/design-system.css";
-import "./styles/mitra.css";"
+import "./styles/mitra.css";
 
 export const metadata = {
   title: "Lakoffie",
