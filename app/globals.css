@@ -6,10 +6,15 @@
 .navbar {
   @apply fixed top-0 left-0 w-full bg-brand text-white z-50;
 }
-.nav-link {
-  @apply text-sm font-medium text-white hover:text-accent transition;
+.navbar-link {
+  @apply text-gray-800 font-medium
+         md:text-white;
 }
-
+.navbar-link {
+  @apply transition-colors duration-200
+         hover:text-yellow-200
+         md:hover:text-amber-200;
+}
 .navbar-inner {
   @apply max-w-6xl mx-auto h-16 px-4 flex items-center justify-between;
 }
@@ -21,8 +26,11 @@
 .navbar-menu {
   @apply hidden md:flex gap-6;
 }
-.nav-link-active {
-  @apply text-accent border-b-2 border-accent;
+.navbar-link-active {
+  @apply font-semibold border-b-2
+         text-gray-800
+         md:text-white
+         border-primary;
 }
 .navbar-hamburger {
   @apply md:hidden flex flex-col gap-1;
