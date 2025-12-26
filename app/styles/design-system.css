@@ -1,0 +1,43 @@
+@layer components {
+
+  /* NAVBAR */
+  .navbar {
+    @apply bg-secondary text-white;
+  }
+
+  .navbar-link {
+    @apply text-gray-200 font-medium
+           hover:text-amber-200
+           md:text-white;
+  }
+
+  .navbar-link-active {
+    @apply font-semibold
+           border-b-2 border-accent
+           text-white;
+  }
+
+  /* BUTTON */
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           px-4 py-2 rounded-md
+           text-sm font-medium
+           bg-primary text-white
+           hover:bg-secondary
+           transition;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 rounded-md
+           bg-accent text-white
+           hover:opacity-90;
+  }
+
+  /* CARD */
+  .card {
+    @apply bg-white rounded-xl
+           border border-gray-200
+           shadow-sm;
+  }
+
+}
