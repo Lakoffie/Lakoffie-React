@@ -1,12 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer components {
 
-  /* ======================
-     NAVBAR
-  ====================== */
   .navbar {
     @apply bg-secondary text-white;
   }
@@ -23,9 +16,6 @@
            text-white;
   }
 
-  /* ======================
-     BUTTON
-  ====================== */
   .btn-primary {
     @apply inline-flex items-center justify-center
            px-4 py-2 rounded-md
@@ -35,18 +25,6 @@
            transition;
   }
 
-  .btn-secondary {
-    @apply inline-flex items-center justify-center
-           px-4 py-2 rounded-md
-           text-sm font-medium
-           bg-accent text-white
-           hover:opacity-90
-           transition;
-  }
-
-  /* ======================
-     CARD
-  ====================== */
   .card {
     @apply bg-white rounded-xl
            border border-gray-200
