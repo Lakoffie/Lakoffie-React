@@ -13,7 +13,6 @@ module.exports = {
     cream: "#fef3c7",       // background lembut
   },
     }
-    }
   },
   plugins: []
 }
