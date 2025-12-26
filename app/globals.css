@@ -2,55 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===== REUSABLE COMPONENT ===== */
-.navbar {
-  @apply fixed top-0 left-0 w-full bg-brand text-white z-50;
-}
-.navbar-link {
-  @apply text-gray-800 font-medium
-         md:text-white;
-}
-.navbar-link {
-  @apply transition-colors duration-200
-         hover:text-yellow-200
-         md:hover:text-amber-200;
-}
-.navbar-inner {
-  @apply max-w-6xl mx-auto h-16 px-4 flex items-center justify-between;
-}
+/* BASE RESET / TYPOGRAPHY */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 antialiased;
+  }
 
-.navbar-logo {
-  @apply font-bold text-lg;
-}
-
-.navbar-menu {
-  @apply hidden md:flex gap-6;
-}
-.navbar-link-active {
-  @apply font-semibold border-b-2
-         border-amber-600
-         text-gray-700
-         md:text-white;
-}
-.navbar-hamburger {
-  @apply md:hidden flex flex-col gap-1;
-}
-
-.navbar-hamburger span {
-  @apply w-6 h-0.5 bg-white;
-}
-
-.navbar-mobile {
-  @apply fixed inset-0 bg-brand text-white
-         flex flex-col gap-6 pt-24 px-6;
-}
-.btn-primary {
-  @apply bg-brand text-white px-5 py-3
-         rounded-lg hover:bg-accent transition;
-}
-
-
-/* FOOTER */
-.footer {
-  @apply bg-brand text-white text-center py-6 text-sm;
+  h1, h2, h3, h4 {
+    @apply font-semibold text-gray-900;
+  }
 }
