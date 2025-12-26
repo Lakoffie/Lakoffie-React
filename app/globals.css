@@ -7,7 +7,7 @@
   @apply fixed top-0 left-0 w-full bg-brand text-white z-50;
 }
 .nav-link {
-  @apply text-sm font-medium text-gray-700 hover:text-accent transition;
+  @apply text-sm font-medium text-white hover:text-accent transition;
 }
 
 .navbar-inner {
