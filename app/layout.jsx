@@ -1,5 +1,6 @@
-import "./globals.css"
-import Navbar from "../components/Navbar"
+import "./globals.css";
+import "./styles/design-system.css";
+import "./styles/mitra.css";"
 
 export const metadata = {
   title: "Lakoffie",
