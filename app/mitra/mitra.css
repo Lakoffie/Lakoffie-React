@@ -52,5 +52,10 @@
 }
 
 .mitra-offline-card {
-  @apply bg-white p-8 rounded-xl shadow;
+  @apply bg-white p-8 rounded-xl shadow
+         flex flex-col;
+  
+  .mitra-offline-card a {
+  @apply mt-6 inline-block;
+  }
 }
