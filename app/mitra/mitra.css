@@ -7,7 +7,7 @@
 
 /* HEADER (COOKLAT MUDA) */
 .mitra-header {
-  @apply bg-accent text-white text-center py-10 px-4;
+  @apply bg-accent text-white text-center py-20 px-4;
 }
 
 .mitra-header h1 {
