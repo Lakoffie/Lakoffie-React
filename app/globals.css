@@ -1,1 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* ===== REUSABLE COMPONENT ===== */
+.nav-link {
+  @apply text-sm font-medium text-gray-700 hover:text-accent transition;
+}
+
+.nav-link-active {
+  @apply text-accent border-b-2 border-accent;
+}
+
+.btn-primary {
+  @apply bg-brand text-white px-4 py-2 rounded-lg hover:bg-accent transition;
+}
