@@ -1,4 +1,8 @@
 @layer components {
+  .navbar {
+    @apply bg-[#3E2723] text-white;
+  }
+
 
   .navbar {
     @apply bg-secondary text-white;
