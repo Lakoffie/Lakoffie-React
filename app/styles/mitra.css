@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer components {
 
   /* HEADER MITRA */
@@ -13,14 +17,14 @@
     @apply bg-gray-100 py-12;
   }
 
-  /* CARD OFFLINE / ONLINE */
+  /* CARD */
   .mitra-card {
     @apply bg-white p-8
            rounded-xl shadow
            flex flex-col;
   }
 
-  /* BUTTON MITRA */
+  /* BUTTON */
   .mitra-btn {
     @apply text-sm font-medium
            px-4 py-2 rounded-md
