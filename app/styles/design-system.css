@@ -1,38 +1,23 @@
 @layer components {
+
   .navbar {
     @apply bg-[#3E2723] text-white;
   }
 
-
-  .navbar {
-    @apply bg-secondary text-white;
+  .navbar-inner {
+    @apply max-w-6xl mx-auto flex items-center justify-between px-4 py-3;
   }
 
-  .navbar-link {
-    @apply font-medium text-gray-200
-           hover:text-amber-200
-           md:text-white;
+  .navbar-logo {
+    @apply font-bold text-lg;
   }
 
-  .navbar-link-active {
-    @apply font-semibold
-           border-b-2 border-accent
-           text-white;
+  .nav-link {
+    @apply text-sm hover:opacity-80;
   }
 
-  .btn-primary {
-    @apply inline-flex items-center justify-center
-           px-4 py-2 rounded-md
-           text-sm font-medium
-           bg-primary text-white
-           hover:bg-secondary
-           transition;
-  }
-
-  .card {
-    @apply bg-white rounded-xl
-           border border-gray-200
-           shadow-sm;
+  .nav-active {
+    @apply font-semibold border-b-2 border-white;
   }
 
 }
