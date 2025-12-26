@@ -6,6 +6,9 @@
 .navbar {
   @apply fixed top-0 left-0 w-full bg-brand text-white z-50;
 }
+.nav-link {
+  @apply text-sm font-medium text-gray-700 hover:text-accent transition;
+}
 
 .navbar-inner {
   @apply max-w-6xl mx-auto h-16 px-4 flex items-center justify-between;
@@ -19,14 +22,12 @@
   @apply hidden md:flex gap-6;
 }
 
-.nav-link {
-  @apply text-sm hover:text-accent transition;
-}
-
 .nav-active {
   @apply text-accent border-b-2 border-accent;
 }
-
+.nav-link-active {
+  @apply text-accent border-b-2 border-accent;
+}
 .navbar-hamburger {
   @apply md:hidden flex flex-col gap-1;
 }
@@ -39,20 +40,13 @@
   @apply fixed inset-0 bg-brand text-white
          flex flex-col gap-6 pt-24 px-6;
 }
+.btn-primary {
+  @apply bg-brand text-white px-5 py-3
+         rounded-lg hover:bg-accent transition;
+}
+
 
 /* FOOTER */
 .footer {
   @apply bg-brand text-white text-center py-6 text-sm;
-}
-.nav-link {
-  @apply text-sm font-medium text-gray-700 hover:text-accent transition;
-}
-
-.nav-link-active {
-  @apply text-accent border-b-2 border-accent;
-}
-
-.btn-primary {
-  @apply bg-brand text-white px-5 py-3
-         rounded-lg hover:bg-accent transition;
 }
