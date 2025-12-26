@@ -1,17 +1,12 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-16">
-      <h1 className="text-3xl font-bold text-brand">
-        Kopi Lokal, Rasa Kelas Cafe
+    <main className="p-8">
+      <h1 className="text-2xl font-bold">
+        Lakoffie Landing Page
       </h1>
-      <p className="mt-4 text-gray-600 max-w-xl">
-        Lakoffie menghadirkan kopi robusta dengan karakter unik,
-        bukan sekadar pahit.
+      <p className="mt-2 text-gray-600">
+        Build test berhasil.
       </p>
-
-      <button className="btn-primary mt-6">
-        Lihat Mitra
-      </button>
     </main>
-  )
+  );
 }
