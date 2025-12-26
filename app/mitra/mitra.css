@@ -1,0 +1,87 @@
+@tailwind components;
+
+/* ===== PAGE ===== */
+.mitra-page {
+  @apply pt-16;
+}
+
+/* ===== HERO ===== */
+.mitra-hero {
+  @apply bg-brand text-white text-center py-24 px-4;
+}
+
+.mitra-hero h1 {
+  @apply text-4xl md:text-5xl font-bold;
+}
+
+.mitra-hero p {
+  @apply mt-4 text-lg max-w-2xl mx-auto;
+}
+
+/* ===== SECTION ===== */
+.mitra-section {
+  @apply py-16 max-w-6xl mx-auto px-4;
+}
+
+.mitra-section h2 {
+  @apply text-2xl font-semibold text-center mb-10;
+}
+
+/* ===== GRID ===== */
+.mitra-grid {
+  @apply grid grid-cols-2 md:grid-cols-4 gap-6;
+}
+
+/* ===== CARD ===== */
+.mitra-card {
+  @apply border rounded-xl p-6 text-center
+         hover:shadow-lg transition;
+}
+
+.mitra-card span {
+  @apply font-semibold block;
+}
+
+.mitra-card a {
+  @apply text-accent text-sm mt-2 inline-block;
+}
+
+/* ===== OFFLINE ===== */
+.mitra-offline {
+  @apply bg-gray-50 py-16 px-4
+         grid md:grid-cols-2 gap-10
+         max-w-6xl mx-auto;
+}
+
+.mitra-offline-card {
+  @apply bg-white p-8 rounded-xl shadow;
+}
+
+.mitra-offline-card h3 {
+  @apply text-xl font-bold mb-3;
+}
+
+.mitra-offline-card p {
+  @apply text-gray-600 mb-4;
+}
+
+/* ===== CTA ===== */
+.mitra-cta {
+  @apply text-center py-20 bg-accent text-white;
+}
+
+.mitra-cta h2 {
+  @apply text-3xl font-bold;
+}
+
+.mitra-cta p {
+  @apply mt-3;
+}
+
+/* ===== BUTTON ===== */
+.btn-secondary {
+  @apply inline-block mt-6
+         bg-white text-brand
+         px-6 py-3 rounded-lg
+         font-semibold hover:opacity-90;
+}
