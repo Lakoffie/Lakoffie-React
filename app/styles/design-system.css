@@ -1,12 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer components {
 
-  /* NAVBAR */
+  /* ======================
+     NAVBAR
+  ====================== */
   .navbar {
     @apply bg-secondary text-white;
   }
 
   .navbar-link {
-    @apply text-gray-200 font-medium
+    @apply font-medium text-gray-200
            hover:text-amber-200
            md:text-white;
   }
@@ -17,7 +23,9 @@
            text-white;
   }
 
-  /* BUTTON */
+  /* ======================
+     BUTTON
+  ====================== */
   .btn-primary {
     @apply inline-flex items-center justify-center
            px-4 py-2 rounded-md
@@ -28,12 +36,17 @@
   }
 
   .btn-secondary {
-    @apply px-4 py-2 rounded-md
+    @apply inline-flex items-center justify-center
+           px-4 py-2 rounded-md
+           text-sm font-medium
            bg-accent text-white
-           hover:opacity-90;
+           hover:opacity-90
+           transition;
   }
 
-  /* CARD */
+  /* ======================
+     CARD
+  ====================== */
   .card {
     @apply bg-white rounded-xl
            border border-gray-200
