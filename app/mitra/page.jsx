@@ -34,7 +34,7 @@ export default function MitraPage() {
             <div className="mitra-offline-card">
               <h3>Official Store Lakoffie</h3>
               <p>Kunjungi official store resmi kami.</p>
-              <a href="https://maps.google.com" target="_blank" className="btn-primary">
+              <a href="https://maps.google.com" target="_blank" className="mitra-btn">
                 Google Maps
               </a>
             </div>
@@ -42,7 +42,7 @@ export default function MitraPage() {
             <div className="mitra-offline-card">
               <h3>Mitra Terdekat</h3>
               <p>Lihat mitra Lakoffie di kotamu.</p>
-              <a href="/mitra/daftar" className="btn-primary">
+              <a href="/mitra/daftar" className="mitra-btn">
                 Daftar Mitra
               </a>
             </div>
