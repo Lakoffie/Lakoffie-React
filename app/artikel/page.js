@@ -1,3 +1,5 @@
+"use client";
+
 import artikel from "../../data/artikel";
 import Link from "next/link";
 
