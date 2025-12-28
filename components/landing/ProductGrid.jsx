@@ -1,4 +1,5 @@
 import products from "@/data/products";
+import Image from "next/image";
 
 export default function ProductGrid() {
   return (
@@ -23,11 +24,14 @@ export default function ProductGrid() {
     hover:shadow-xl
   "
 >
-            <img
-              src={p.image}
-              alt={p.name}
-              className="rounded-lg mb-4"
-            />
+            <Image
+  src={p.image}
+  alt={`Kopi ${p.name} Lakoffie`}
+  width={400}
+  height={300}
+  className="rounded-lg mb-4 object-cover"
+  loading="lazy"
+/>
 
             <h3 className="font-bold text-lg">{p.name}</h3>
             <p className="text-sm text-gray-600 mb-2">{p.desc}</p>
