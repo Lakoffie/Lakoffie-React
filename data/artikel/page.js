@@ -1,6 +1,6 @@
 "use client";
 
-import artikel from "../artikel";
+import artikel from "../data/artikel";
 import Link from "next/link";
 
 export default function ArtikelPage() {
