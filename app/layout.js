@@ -1,7 +1,7 @@
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import StickyWhatsapp from "@/components/StickyWhatsapp";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
+import StickyWhatsapp from "../components/StickyWhatsapp";
 
 export const metadata = {
   title: "Lakoffie | Kopi Bubuk dengan Karakter Rasa Berbeda",
