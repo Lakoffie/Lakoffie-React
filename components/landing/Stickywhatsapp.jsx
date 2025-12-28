@@ -1,7 +1,7 @@
 export default function StickyWhatsapp() {
   return (
     <a
-      href="https://wa.me/62XXXXXXXXXX"
+      href="https://wa.me/6285175285640"
       target="_blank"
       className="
   fixed bottom-5 right-5 z-50
