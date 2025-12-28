@@ -17,11 +17,11 @@ import { useState } from "react";
 
 /* ========================= */
 
-import Hero from "@/components/landing/Hero";
-import ProductGrid from "@/components/landing/ProductGrid";
-import Testimonial from "@/components/landing/Testimonial";
-import About from "@/components/landing/About";
-import FinalCTA from "@/components/landing/FinalCTA";
+import Hero from "@/components/landing/Hero.jsx";
+import ProductGrid from "@/components/landing/ProductGrid.jsx";
+import Testimonial from "@/components/landing/Testimonial.jsx";
+import About from "@/components/landing/About.jsx";
+import FinalCTA from "@/components/landing/FinalCTA.jsx";
 
 export default function Home() {
   // const [filtered, setFiltered] = useState(artikel);
