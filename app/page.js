@@ -11,11 +11,11 @@ import FinalCTA from "../components/landing/FinalCTA.jsx";
 export default function Home() {
   return (
     <AppShell>
-      <Hero />
-      <ProductGrid />
-      <Testimonial />
-      <About />
-      <FinalCTA />
-    </AppShell>
+  {/* <Hero /> */}
+  {/* <ProductGrid /> */}
+  {/* <Testimonial /> */}
+  {/* <About /> */}
+  {/* <FinalCTA /> */}
+</AppShell>
   );
 }
