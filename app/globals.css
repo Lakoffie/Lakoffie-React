@@ -19,3 +19,29 @@ body {
 .animate-fadeUp {
   animation: fadeUp 0.8s ease-out;
 }
+@keyframes pulseSoft {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pulseSoft {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-pulseSoft {
+  animation: pulseSoft 2.5s ease-in-out infinite;
+}
