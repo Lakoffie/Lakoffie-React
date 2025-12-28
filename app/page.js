@@ -23,6 +23,26 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+export const metadata = {
+  title: "Lakoffie | Kopi Bubuk dengan Karakter Rasa Berbeda",
+  description:
+    "Lakoffie menghadirkan kopi bubuk lokal dengan karakter rasa unik. Dari pahit beraroma gula jawa, body kental, hingga asam elegan ala café.",
+  keywords: [
+    "kopi bubuk",
+    "kopi robusta",
+    "kopi temanggung",
+    "kopi lampung",
+    "kopi salatiga",
+    "kopi gula jawa",
+    "kopi lokal",
+  ],
+  openGraph: {
+    title: "Lakoffie | Kopi Bubuk Lokal Rasa Ala Café",
+    description:
+      "Ngopi ala café dengan harga bersahabat. Kopi bubuk Lakoffie hadir dengan karakter rasa berbeda.",
+    type: "website",
+  },
+};
 
 export default function Home() {
   const [filtered, setFiltered] = useState(artikel);
