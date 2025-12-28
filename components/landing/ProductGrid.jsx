@@ -10,9 +10,19 @@ export default function ProductGrid() {
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {products.map((p) => (
           <div
-            key={p.id}
-            className="bg-white rounded-xl shadow hover:shadow-lg transition p-4"
-          >
+  key={p.id}
+  className="
+    bg-white
+    rounded-xl
+    shadow
+    p-4
+    transition-all
+    duration-300
+    ease-out
+    hover:-translate-y-1
+    hover:shadow-xl
+  "
+>
             <img
               src={p.image}
               alt={p.name}
