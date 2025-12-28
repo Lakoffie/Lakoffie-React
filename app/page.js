@@ -11,6 +11,18 @@ import ProductGrid from "@/components/landing/ProductGrid";
 import Testimonial from "@/components/landing/Testimonial";
 import About from "@/components/landing/About";
 import FinalCTA from "@/components/landing/FinalCTA";
+import StickyWhatsapp from "@/components/StickyWhatsapp";
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="id">
+      <body>
+        {children}
+        <StickyWhatsapp />
+      </body>
+    </html>
+  );
+}
 
 export default function Home() {
   const [filtered, setFiltered] = useState(artikel);
