@@ -16,7 +16,7 @@ import { useState } from "react";
 // import Slider from "@/components/ui/Slider";
 
 /* ========================= */
-
+import AppShell from "../components/layout/AppShell.jsx";
 import Hero from "../components/landing/Hero.jsx";
 import ProductGrid from "../components/landing/ProductGrid.jsx";
 import Testimonial from "../components/landing/Testimonial.jsx";
@@ -32,6 +32,7 @@ export default function Home() {
 
   return (
     <>
+     <AppShell>
       {/* HERO + PRODUK */}
       <Hero />
       <ProductGrid />
