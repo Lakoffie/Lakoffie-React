@@ -1,1 +1,46 @@
+import products from "@/data/products";
 
+export default function ProductGrid() {
+  return (
+    <section className="py-16">
+      <h2 className="text-2xl font-bold text-center mb-10">
+        Pilih Karakter Kopi Favoritmu
+      </h2>
+
+      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+        {products.map((p) => (
+          <div
+            key={p.id}
+            className="bg-white rounded-xl shadow hover:shadow-lg transition p-4"
+          >
+            <img
+              src={p.image}
+              alt={p.name}
+              className="rounded-lg mb-4"
+            />
+
+            <h3 className="font-bold text-lg">{p.name}</h3>
+            <p className="text-sm text-gray-600 mb-2">{p.desc}</p>
+            <p className="text-sm mb-3">{p.detail}</p>
+
+            <div className="mb-4">
+              <span className="line-through text-gray-400 mr-2">
+                Rp{p.oldPrice.toLocaleString()}
+              </span>
+              <span className="text-amber-600 font-bold">
+                Rp{p.price.toLocaleString()}
+              </span>
+            </div>
+
+            <a
+              href="https://wa.me/6285175285640"
+              className="text-amber-600 font-semibold hover:underline"
+            >
+              Tanya Varian Ini →
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
