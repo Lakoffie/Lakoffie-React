@@ -19,7 +19,7 @@ export default function ProductGrid() {
     transition-all
     duration-300
     ease-out
-    hover:-translate-y-1
+    hover:-translate-y-[6px]
     hover:shadow-xl
   "
 >
