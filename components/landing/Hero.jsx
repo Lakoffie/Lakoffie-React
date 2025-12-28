@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="py-16 text-center">
+    <section className="py-16 text-center animate-fadeUp">
       <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
         Selama Ini Kamu Kira Kopi Cuma Pahit?
       </h1>
