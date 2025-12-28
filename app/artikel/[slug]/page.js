@@ -1,4 +1,4 @@
-import artikel from "@/data/artikel";
+import artikel from "../data/artikel";
 
 export async function generateMetadata({ params }) {
   const data = artikel.find(a => a.slug === params.slug);
