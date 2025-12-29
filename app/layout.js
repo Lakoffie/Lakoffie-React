@@ -1,15 +1,24 @@
 import "./globals.css";
+import Header from "../components/layout/Header.jsx";
+import Footer from "../components/layout/Footer.jsx";
+import StickyWhatsapp from "../components/StickyWhatsapp.jsx";
 
 export const metadata = {
   title: "Lakoffie | Kopi Bubuk dengan Karakter Rasa Berbeda",
-  description:
-    "Lakoffie menghadirkan kopi bubuk lokal dengan karakter rasa unik.",
+  description: "Lakoffie menghadirkan kopi bubuk lokal dengan karakter rasa unik. Dari pahit beraroma gula jawa, body kental, hingga asam elegan ala café.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
-      <body>{children}</body>
+      <body className="flex min-h-screen flex-col">
+        <Header />
+        <main className="flex-1 container mx-auto px-4 py-6">
+          {children}
+          <StickyWhatsapp />
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
